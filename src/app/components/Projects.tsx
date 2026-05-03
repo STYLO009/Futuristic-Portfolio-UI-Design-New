@@ -4,33 +4,39 @@ import { Bot, Palette, GraduationCap, ExternalLink, Github, Terminal } from "luc
 const projects = [
   {
     title: "LINKEDIN AUTOMATION BOT",
-    description: "Advanced conversational AI system powered by state-of-the-art NLP models with context-aware responses and real-time learning capabilities.",
+    description: "Built Python bot for automating LinkedIn messaging and connection workflows",
     icon: Bot,
     gradient: "from-cyan-400 to-blue-500",
     tags: ["NLP", "Python", "LangChain", "RAG"],
     status: "DEPLOYED",
     version: "v2.4.1",
     accentColor: "cyan",
+    liveUrl: "https://www.linkedin.com/posts/abir-majumdar-0b0437318_python-langchain-automation-activity-7450137093512671232-ScN2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFCCksQBVQwQ35RrA14JEkWNNw28kRzqOGs",
+    githubUrl: "https://github.com/STYLO009/Linkedin_Bot",
   },
   {
-    title: "SANJEEVANI AI HEALTH CHATBOT",
-    description: "Creative visual organization platform with AI-powered image suggestions, smart categorization, and collaborative features.",
-    icon: Bot,
+    title: "SANJEEVANI – AI HEALTH CHATBOT",
+    description: "•	Developed symptom-based health chatbot using ANN model.Achieved 96% prediction accuracy.",
+    icon: Palette,
     gradient: "from-purple-400 to-pink-500",
     tags: ["React", "JavaScript", "Tailwind", "AI"],
     status: "ACTIVE",
     version: "v1.8.3",
     accentColor: "purple",
+    liveUrl: "https://moodboard-app.vercel.app",
+    githubUrl: "https://github.com/STYLO009/Sanjeevani",
   },
   {
-    title: "JARVIS - AI RESPONSIVE BOT",
-    description: "•	Built contextual AI assistant using NLP-based response generation",
-    icon: Bot,
+    title: "JARVIS CHATBOT",
+    description: "Intelligent educational system that adapts to individual learning patterns and provides personalized recommendations in real-time.",
+    icon: GraduationCap,
     gradient: "from-pink-400 to-cyan-400",
     tags: ["ML", "Python", "CNN", "MySQL"],
     status: "BETA",
     version: "v3.1.0",
     accentColor: "pink",
+    liveUrl: "https://smart-classroom.vercel.app",
+    githubUrl: "https://github.com/STYLO009/First_Project",
   },
 ];
 
@@ -55,7 +61,7 @@ export function Projects() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-[2px] w-12 bg-gradient-to-r from-transparent to-cyan-400" />
             <span className="text-cyan-400 font-mono text-sm tracking-[0.3em]" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-              {'<'}PROJECT{'>'}
+              {'<'}PROJECT_ARCHIVE{'>'}
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-wider" style={{ fontFamily: 'Orbitron, sans-serif' }}>
@@ -165,7 +171,9 @@ export function Projects() {
                     {/* Action buttons */}
                     <div className="flex gap-4">
                       <a
-                        href="https://www.linkedin.com/posts/abir-majumdar-0b0437318_python-langchain-automation-activity-7450137093512671232-ScN2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFCCksQBVQwQ35RrA14JEkWNNw28kRzqOGs"
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="group/btn relative px-6 py-3 bg-cyan-400/10 border-2 border-cyan-400 text-cyan-400 font-bold hover:bg-cyan-400 hover:text-black transition-all duration-300 flex items-center gap-2 overflow-hidden"
                         style={{
                           fontFamily: 'Orbitron, sans-serif',
@@ -177,7 +185,9 @@ export function Projects() {
                         <div className="absolute inset-0 bg-cyan-400 transform -translate-x-full group-hover/btn:translate-x-0 transition-transform duration-300" />
                       </a>
                       <a
-                        href="https://github.com/STYLO009/Linkedin_Bot"
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-6 py-3 bg-black border-2 border-white/20 text-white font-bold hover:border-white/60 transition-all duration-300 flex items-center gap-2"
                         style={{
                           fontFamily: 'Orbitron, sans-serif',
