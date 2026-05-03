@@ -194,10 +194,10 @@ export function Achievements() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { label: 'AWARDS', value: '15+', icon: Trophy },
-              { label: 'MENTEES', value: '50+', icon: Users },
-              { label: 'CERTIFICATIONS', value: '8', icon: Award },
-              { label: 'SCORE', value: '98%', icon: Star },
+              { label: 'AWARDS', value: '2+', icon: Trophy },
+              { label: 'MENTEES', value: '1', icon: Users },
+              { label: 'CERTIFICATIONS', value: '10+', icon: Award },
+              { label: 'SCORE', value: '85%', icon: Star },
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <stat.icon className="w-8 h-8 text-cyan-400/40 mx-auto mb-2" />
