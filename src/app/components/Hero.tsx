@@ -123,9 +123,9 @@ export function Hero() {
           className="flex gap-4 justify-center"
         >
           {[
-            { Icon: Github, href: '#', label: 'GIT' },
-            { Icon: Linkedin, href: '#', label: 'LNK' },
-            { Icon: Mail, href: '#', label: 'MSG' },
+            { Icon: Github, href: 'https://github.com/STYLO009', label: 'GIT' },
+            { Icon: Linkedin, href: 'https://www.linkedin.com/in/abir-majumdar-0b0437318/', label: 'LNK' },
+            { Icon: Mail, href: 'mailto:abirmajumdar112@gmail.com', label: 'MSG' },
           ].map(({ Icon, href, label }, i) => (
             <a
               key={i}
