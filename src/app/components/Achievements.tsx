@@ -17,7 +17,7 @@ const achievements = [
     description: "Guided 50+ students in machine learning fundamentals and practical applications",
     gradient: "from-cyan-400 to-blue-500",
     accentColor: "cyan-400",
-    year: "2024-25",
+    year: "2026",
     category: "EDUCATION",
   },
   {
@@ -26,7 +26,7 @@ const achievements = [
     description: "Recognized for breakthrough AI solutions in educational technology sector",
     gradient: "from-purple-400 to-pink-500",
     accentColor: "purple-400",
-    year: "2024",
+    year: "2026",
     category: "RECOGNITION",
   },
 ];
@@ -64,7 +64,7 @@ export function Achievements() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-[2px] w-12 bg-gradient-to-r from-transparent to-yellow-400" />
             <span className="text-yellow-400 font-mono text-sm tracking-[0.3em]" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-              {'<'}ACHIEVEMENT_LOG{'>'}
+              {'<'}ACHIEVEMENT{'>'}
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-wider" style={{ fontFamily: 'Orbitron, sans-serif' }}>

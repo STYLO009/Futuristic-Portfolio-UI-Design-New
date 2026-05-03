@@ -194,9 +194,9 @@ export function Skills() {
         >
           {[
             { label: 'TOTAL SKILLS', value: '13+', icon: Database },
-            { label: 'EXPERIENCE', value: '5Y+', icon: Terminal },
-            { label: 'PROJECTS', value: '50+', icon: Code },
-            { label: 'AI MODELS', value: '20+', icon: Cpu },
+            { label: 'EXPERIENCE', value: '2Y+', icon: Terminal },
+            { label: 'PROJECTS', value: '5+', icon: Code },
+            { label: 'AI MODELS', value: '10+', icon: Cpu },
           ].map((stat, i) => (
             <motion.div
               key={i}

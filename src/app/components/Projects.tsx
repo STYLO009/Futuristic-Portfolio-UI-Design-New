@@ -55,7 +55,7 @@ export function Projects() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-[2px] w-12 bg-gradient-to-r from-transparent to-cyan-400" />
             <span className="text-cyan-400 font-mono text-sm tracking-[0.3em]" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-              {'<'}PROJECT_ARCHIVE{'>'}
+              {'<'}PROJECT{'>'}
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-wider" style={{ fontFamily: 'Orbitron, sans-serif' }}>
@@ -165,7 +165,7 @@ export function Projects() {
                     {/* Action buttons */}
                     <div className="flex gap-4">
                       <a
-                        href="#"
+                        href="https://www.linkedin.com/posts/abir-majumdar-0b0437318_python-langchain-automation-activity-7450137093512671232-ScN2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFCCksQBVQwQ35RrA14JEkWNNw28kRzqOGs"
                         className="group/btn relative px-6 py-3 bg-cyan-400/10 border-2 border-cyan-400 text-cyan-400 font-bold hover:bg-cyan-400 hover:text-black transition-all duration-300 flex items-center gap-2 overflow-hidden"
                         style={{
                           fontFamily: 'Orbitron, sans-serif',
@@ -177,7 +177,7 @@ export function Projects() {
                         <div className="absolute inset-0 bg-cyan-400 transform -translate-x-full group-hover/btn:translate-x-0 transition-transform duration-300" />
                       </a>
                       <a
-                        href="#"
+                        href="https://github.com/STYLO009/Linkedin_Bot"
                         className="px-6 py-3 bg-black border-2 border-white/20 text-white font-bold hover:border-white/60 transition-all duration-300 flex items-center gap-2"
                         style={{
                           fontFamily: 'Orbitron, sans-serif',
