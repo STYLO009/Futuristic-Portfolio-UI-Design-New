@@ -20,7 +20,7 @@ export function About() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-[2px] w-12 bg-gradient-to-r from-transparent to-cyan-400" />
             <span className="text-cyan-400 font-mono text-sm tracking-[0.3em]" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-              {'<'}ABOUT_MODULE{'>'}
+              {'<'}ABOUT{'>'}
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-wider" style={{ fontFamily: 'Orbitron, sans-serif' }}>
