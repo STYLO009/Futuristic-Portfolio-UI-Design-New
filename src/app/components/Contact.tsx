@@ -175,10 +175,10 @@ export function Contact() {
 
               <div className="space-y-4">
                 {[
-                  { icon: Github, label: "GITHUB", handle: "@abirmajumdar", gradient: "from-gray-500 to-gray-700", link: "#" },
-                  { icon: Linkedin, label: "LINKEDIN", handle: "Abir Majumdar", gradient: "from-blue-500 to-blue-700", link: "#" },
-                  { icon: Mail, label: "EMAIL", handle: "abir@example.com", gradient: "from-purple-500 to-pink-500", link: "#" },
-                  { icon: Twitter, label: "TWITTER", handle: "@abirmajumdar", gradient: "from-cyan-500 to-blue-500", link: "#" },
+                  { icon: Github, label: "GITHUB", handle: "@abirmajumdar", gradient: "from-gray-500 to-gray-700", link: "https://github.com/STYLO009" },
+                  { icon: Linkedin, label: "LINKEDIN", handle: "Abir Majumdar", gradient: "from-blue-500 to-blue-700", link: "https://www.linkedin.com/in/abir-majumdar-0b0437318/" },
+                  { icon: Mail, label: "EMAIL", handle: "abir@example.com", gradient: "from-purple-500 to-pink-500", link: "abirmajumdar112@gmail.com" },
+                  { icon: Twitter, label: "TWITTER", handle: "@abirmajumdar", gradient: "from-cyan-500 to-blue-500", link: "https://x.com/abir_majum0001" },
                 ].map((social, idx) => (
                   <motion.a
                     key={idx}

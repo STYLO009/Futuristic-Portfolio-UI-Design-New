@@ -15,7 +15,7 @@ const projects = [
   {
     title: "SANJEEVANI AI HEALTH CHATBOT",
     description: "Creative visual organization platform with AI-powered image suggestions, smart categorization, and collaborative features.",
-    icon: Palette,
+    icon: Bot,
     gradient: "from-purple-400 to-pink-500",
     tags: ["React", "JavaScript", "Tailwind", "AI"],
     status: "ACTIVE",
@@ -23,9 +23,9 @@ const projects = [
     accentColor: "purple",
   },
   {
-    title: "SMART CLASSROOM AI",
-    description: "Intelligent educational system that adapts to individual learning patterns and provides personalized recommendations in real-time.",
-    icon: GraduationCap,
+    title: "JARVIS - AI RESPONSIVE BOT",
+    description: "•	Built contextual AI assistant using NLP-based response generation",
+    icon: Bot,
     gradient: "from-pink-400 to-cyan-400",
     tags: ["ML", "Python", "CNN", "MySQL"],
     status: "BETA",

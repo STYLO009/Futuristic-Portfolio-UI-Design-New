@@ -19,7 +19,7 @@ const skillCategories = [
     title: "FRAMEWORKS",
     icon: Layers,
     skills: [
-      { name: "Tailwind CSS", level: 95 },
+      { name: "FASTAPI", level: 95 },
       { name: "MySQL", level: 88 },
       { name: "Git", level: 92 },
       { name: "LangChain", level: 90 },
