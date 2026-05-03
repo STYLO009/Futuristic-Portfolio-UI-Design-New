@@ -36,7 +36,7 @@ export function Contact() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-[2px] w-12 bg-gradient-to-r from-transparent to-cyan-400" />
             <span className="text-cyan-400 font-mono text-sm tracking-[0.3em]" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-              {'<'}CONTACT_INTERFACE{'>'}
+              {'<'}CONTACT{'>'}
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-wider mb-4" style={{ fontFamily: 'Orbitron, sans-serif' }}>
@@ -170,7 +170,7 @@ export function Contact() {
             {/* Social links */}
             <div>
               <h3 className="text-2xl font-black tracking-wider text-white mb-6" style={{ fontFamily: 'Orbitron, sans-serif' }}>
-                NETWORK_LINKS
+                NETWORK
               </h3>
 
               <div className="space-y-4">
