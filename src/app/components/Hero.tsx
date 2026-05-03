@@ -36,7 +36,7 @@ export function Hero() {
         >
           <Terminal className="w-5 h-5 text-cyan-400" />
           <span className="text-sm text-cyan-300 font-mono tracking-wider" style={{ fontFamily: 'Share Tech Mono, monospace' }}>
-            {'>'} AI_ML_ENGINEER.EXE
+            {'<'} ABIR MAJUMDAR {'>'}
           </span>
           <Activity className="w-5 h-5 text-green-400 animate-pulse" />
         </motion.div>
